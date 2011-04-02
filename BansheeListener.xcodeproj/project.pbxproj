@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		703C00921347B48800D6F1B1 /* NoteNames in Resources */ = {isa = PBXBuildFile; fileRef = 703C00911347B48800D6F1B1 /* NoteNames */; };
 		704466A313330357005615AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704466A213330357005615AC /* UIKit.framework */; };
 		704466A513330357005615AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704466A413330357005615AC /* Foundation.framework */; };
 		704466A713330357005615AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704466A613330357005615AC /* CoreGraphics.framework */; };
@@ -22,6 +23,17 @@
 		704466CD13330358005615AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 704466CB13330358005615AC /* InfoPlist.strings */; };
 		704466D013330358005615AC /* BansheeListenerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 704466CF13330358005615AC /* BansheeListenerTests.h */; };
 		704466D213330358005615AC /* BansheeListenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 704466D113330358005615AC /* BansheeListenerTests.m */; };
+		704466DC13330389005615AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 704466DB13330389005615AC /* Icon.png */; };
+		704466DE13330392005615AC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 704466DD13330392005615AC /* Icon@2x.png */; };
+		704466E01333039D005615AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 704466DF1333039D005615AC /* Default.png */; };
+		704466E2133303A2005615AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 704466E1133303A2005615AC /* Default@2x.png */; };
+		704466E5133303C7005615AC /* BG-AC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 704466E3133303C7005615AC /* BG-AC.jpg */; };
+		704466E6133303C7005615AC /* BG-AC@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 704466E4133303C7005615AC /* BG-AC@2x.jpg */; };
+		704466EA1333056A005615AC /* RecordProcessPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 704466E91333056A005615AC /* RecordProcessPlay.m */; };
+		704466F113330AA9005615AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704466EF13330AA9005615AC /* AudioToolbox.framework */; };
+		704466F213330AA9005615AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704466F013330AA9005615AC /* AVFoundation.framework */; };
+		704466FD1333BB7F005615AC /* AudioMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 704466FC1333BB7F005615AC /* AudioMath.m */; };
+		7081D9D11337FACA0053E18D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7081D9D01337FACA0053E18D /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +47,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		703C00911347B48800D6F1B1 /* NoteNames */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NoteNames; sourceTree = "<group>"; };
 		7044669E13330357005615AC /* BansheeListener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BansheeListener.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704466A213330357005615AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		704466A413330357005615AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		704466A613330357005615AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		704466AA13330357005615AC /* BansheeListener-Info.plist */ = {isa = PBXFileReference; path = "BansheeListener-Info.plist"; sourceTree = "<group>"; };
+		704466AA13330357005615AC /* BansheeListener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BansheeListener-Info.plist"; sourceTree = "<group>"; };
 		704466AC13330357005615AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		704466AE13330357005615AC /* BansheeListener-Prefix.pch */ = {isa = PBXFileReference; path = "BansheeListener-Prefix.pch"; sourceTree = "<group>"; };
+		704466AE13330357005615AC /* BansheeListener-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BansheeListener-Prefix.pch"; sourceTree = "<group>"; };
 		704466AF13330357005615AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		704466B113330357005615AC /* BansheeListenerAppDelegate.h */ = {isa = PBXFileReference; path = BansheeListenerAppDelegate.h; sourceTree = "<group>"; };
+		704466B113330357005615AC /* BansheeListenerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BansheeListenerAppDelegate.h; sourceTree = "<group>"; };
 		704466B213330357005615AC /* BansheeListenerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BansheeListenerAppDelegate.m; sourceTree = "<group>"; };
 		704466B513330357005615AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		704466B713330357005615AC /* BansheeListenerViewController.h */ = {isa = PBXFileReference; path = BansheeListenerViewController.h; sourceTree = "<group>"; };
+		704466B713330357005615AC /* BansheeListenerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BansheeListenerViewController.h; sourceTree = "<group>"; };
 		704466B813330358005615AC /* BansheeListenerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BansheeListenerViewController.m; sourceTree = "<group>"; };
 		704466BB13330358005615AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BansheeListenerViewController.xib; sourceTree = "<group>"; };
 		704466C213330358005615AC /* BansheeListenerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BansheeListenerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		704466CA13330358005615AC /* BansheeListenerTests-Info.plist */ = {isa = PBXFileReference; path = "BansheeListenerTests-Info.plist"; sourceTree = "<group>"; };
+		704466CA13330358005615AC /* BansheeListenerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BansheeListenerTests-Info.plist"; sourceTree = "<group>"; };
 		704466CC13330358005615AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		704466CE13330358005615AC /* BansheeListenerTests-Prefix.pch */ = {isa = PBXFileReference; path = "BansheeListenerTests-Prefix.pch"; sourceTree = "<group>"; };
+		704466CE13330358005615AC /* BansheeListenerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BansheeListenerTests-Prefix.pch"; sourceTree = "<group>"; };
 		704466CF13330358005615AC /* BansheeListenerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BansheeListenerTests.h; sourceTree = "<group>"; };
 		704466D113330358005615AC /* BansheeListenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BansheeListenerTests.m; sourceTree = "<group>"; };
+		704466DB13330389005615AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		704466DD13330392005615AC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		704466DF1333039D005615AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		704466E1133303A2005615AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		704466E3133303C7005615AC /* BG-AC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BG-AC.jpg"; sourceTree = "<group>"; };
+		704466E4133303C7005615AC /* BG-AC@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BG-AC@2x.jpg"; sourceTree = "<group>"; };
+		704466E71333050B005615AC /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		704466E81333056A005615AC /* RecordProcessPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordProcessPlay.h; sourceTree = "<group>"; };
+		704466E91333056A005615AC /* RecordProcessPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordProcessPlay.m; sourceTree = "<group>"; };
+		704466EF13330AA9005615AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		704466F013330AA9005615AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		704466FB1333BB7F005615AC /* AudioMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioMath.h; sourceTree = "<group>"; };
+		704466FC1333BB7F005615AC /* AudioMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioMath.m; sourceTree = "<group>"; };
+		7081D9D01337FACA0053E18D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7081D9D11337FACA0053E18D /* Accelerate.framework in Frameworks */,
+				704466F113330AA9005615AC /* AudioToolbox.framework in Frameworks */,
+				704466F213330AA9005615AC /* AVFoundation.framework in Frameworks */,
 				704466A313330357005615AC /* UIKit.framework in Frameworks */,
 				704466A513330357005615AC /* Foundation.framework in Frameworks */,
 				704466A713330357005615AC /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +114,13 @@
 		7044669313330357005615AC = {
 			isa = PBXGroup;
 			children = (
+				703C00911347B48800D6F1B1 /* NoteNames */,
+				704466E1133303A2005615AC /* Default@2x.png */,
+				704466DF1333039D005615AC /* Default.png */,
+				704466E3133303C7005615AC /* BG-AC.jpg */,
+				704466E4133303C7005615AC /* BG-AC@2x.jpg */,
+				704466DD13330392005615AC /* Icon@2x.png */,
+				704466DB13330389005615AC /* Icon.png */,
 				704466A813330357005615AC /* BansheeListener */,
 				704466C813330358005615AC /* BansheeListenerTests */,
 				704466A113330357005615AC /* Frameworks */,
@@ -103,6 +140,9 @@
 		704466A113330357005615AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7081D9D01337FACA0053E18D /* Accelerate.framework */,
+				704466EF13330AA9005615AC /* AudioToolbox.framework */,
+				704466F013330AA9005615AC /* AVFoundation.framework */,
 				704466A213330357005615AC /* UIKit.framework */,
 				704466A413330357005615AC /* Foundation.framework */,
 				704466A613330357005615AC /* CoreGraphics.framework */,
@@ -113,6 +153,11 @@
 		704466A813330357005615AC /* BansheeListener */ = {
 			isa = PBXGroup;
 			children = (
+				704466E71333050B005615AC /* config.h */,
+				704466FB1333BB7F005615AC /* AudioMath.h */,
+				704466FC1333BB7F005615AC /* AudioMath.m */,
+				704466E81333056A005615AC /* RecordProcessPlay.h */,
+				704466E91333056A005615AC /* RecordProcessPlay.m */,
 				704466B113330357005615AC /* BansheeListenerAppDelegate.h */,
 				704466B213330357005615AC /* BansheeListenerAppDelegate.m */,
 				704466B413330357005615AC /* MainWindow.xib */,
@@ -228,6 +273,13 @@
 				704466AD13330357005615AC /* InfoPlist.strings in Resources */,
 				704466B613330357005615AC /* MainWindow.xib in Resources */,
 				704466BC13330358005615AC /* BansheeListenerViewController.xib in Resources */,
+				704466DC13330389005615AC /* Icon.png in Resources */,
+				704466DE13330392005615AC /* Icon@2x.png in Resources */,
+				704466E01333039D005615AC /* Default.png in Resources */,
+				704466E2133303A2005615AC /* Default@2x.png in Resources */,
+				704466E5133303C7005615AC /* BG-AC.jpg in Resources */,
+				704466E6133303C7005615AC /* BG-AC@2x.jpg in Resources */,
+				703C00921347B48800D6F1B1 /* NoteNames in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +318,8 @@
 				704466B013330357005615AC /* main.m in Sources */,
 				704466B313330357005615AC /* BansheeListenerAppDelegate.m in Sources */,
 				704466B913330358005615AC /* BansheeListenerViewController.m in Sources */,
+				704466EA1333056A005615AC /* RecordProcessPlay.m in Sources */,
+				704466FD1333BB7F005615AC /* AudioMath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,12 +413,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Henry Lowengard (EJL62Y22SD)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BansheeListener/BansheeListener-Prefix.pch";
 				INFOPLIST_FILE = "BansheeListener/BansheeListener-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5A6DD17B-AB4A-41D1-B8B5-49BA145A55B1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,11 +433,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Henry Lowengard (EJL62Y22SD)";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BansheeListener/BansheeListener-Prefix.pch";
 				INFOPLIST_FILE = "BansheeListener/BansheeListener-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5A6DD17B-AB4A-41D1-B8B5-49BA145A55B1";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -446,6 +512,7 @@
 				704466D713330358005615AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		704466D813330358005615AC /* Build configuration list for PBXNativeTarget "BansheeListenerTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +521,7 @@
 				704466DA13330358005615AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
